@@ -1,66 +1,19 @@
-## Foundry
+# <p align=center >DeFi STABLECOIN</p>
+## Introduction
+<br>
+<p style='font-family:"Roboto"; font-size:17px;'>Stablecoins are cryptocurrency assets whose values are relatively stable and non-volatile. They are backed by certain colleteral which can exist off-chain(ex: USDC is pegged to USD ) or collateral which exists on chain(ex: UST which is backed by LUNA ). Stability is achieved chiefly in two major ways; by either making the asset governed or algorithmic. Governed method of stability makes it more centralized and the algorithmic method requires a permissionless algorithm to achieve stability. </p>
+<br>
+<p style='font-family:"Roboto"; font-size:17px;'> To learn more, please read <a href="https://blog.chain.link/stablecoins-but-actually/"> this article by Chainlink.</a></p>
+<br>
+<br>
+<p style='font-family:"Roboto"; font-size:17px;'>In this project I aim to build a stablecoin which is pegged to the USD, algorithmic and exogenous.</p>
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+1. <p style='font-family:"Roboto"; font-size:17px;'>Relative stability : Anchored or pegged => 1$</p>
+2. <p style='font-family:"Roboto"; font-size:17px;'>Stability mechanism(Minting) : Algorithmic (Decentralized)</p>
+3. <p style='font-family:"Roboto"; font-size:17px;'> Collateral : Exogenous(Crypto)</p>
 
-Foundry consists of:
+<br>
+<br>
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Getting Started
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
